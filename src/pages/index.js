@@ -52,7 +52,7 @@ export const query = graphql`
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
         }
