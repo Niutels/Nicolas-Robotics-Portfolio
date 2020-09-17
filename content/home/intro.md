@@ -1,1 +1,0 @@
-A set of awesome projects related with robotics that I have the opportunity to share with you.
