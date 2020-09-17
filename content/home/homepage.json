@@ -2,18 +2,58 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
+    "title": "Robocup",
     "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/nico_robocup.jpg"
   },
   {
-    "title": "Page Transitions",
+    "title": "Graph PHD",
     "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "image": "../images/gallery/graph_PHD.png"
   },
   {
-    "title": "Intersection Observer",
+    "title": "Painting robot",
     "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "image": "../images/gallery/demonstration.png"
+  },
+  {
+    "title": "Smart Pen",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/smart_pen.png"
+  },
+  {
+    "title": "Poppy robot",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Poppy-robot-pendulum.jpg"
+  },
+  {
+    "title": "AGV",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/akeomotion.jpg"
+  },
+  {
+    "title": "Painting robot",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/demonstration.png"
+  },
+  {
+    "title": "Painting robot",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/demonstration.png"
+  },
+  {
+    "title": "Painting robot",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/demonstration.png"
+  },
+  {
+    "title": "Painting robot",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/demonstration.png"
+  },
+  {
+    "title": "Painting robot",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/demonstration.png"
   }]
 }
