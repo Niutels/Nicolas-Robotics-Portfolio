@@ -2,58 +2,200 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
+    "link": "robocup",
     "title": "Robocup",
     "copy": "For global styles.",
     "image": "../images/gallery/nico_robocup.jpg"
   },
   {
+    "link": "SEA",
+    "title": "Series-Elastic Actuator design",
+    "copy": "For global styles.",
+    "image": "../images/gallery/Pulley-System.jpg"
+  },
+  {
+    "link": "PHD_controller",
     "title": "Graph PHD",
     "copy": "Component-based for easy usage.",
     "image": "../images/gallery/graph_PHD.png"
   },
   {
+    "link": "painting_robot",
     "title": "Painting robot",
     "copy": "Including a polyfill for Safari.",
     "image": "../images/gallery/demonstration.png"
   },
   {
+    "link": "smart_pen",
     "title": "Smart Pen",
     "copy": "Including a polyfill for Safari.",
     "image": "../images/gallery/smart_pen.png"
   },
   {
+    "link": "poppy_robot",
     "title": "Poppy robot",
     "copy": "Including a polyfill for Safari.",
     "image": "../images/gallery/Poppy-robot-pendulum.jpg"
   },
   {
+    "link": "AGV",
     "title": "AGV",
     "copy": "Including a polyfill for Safari.",
     "image": "../images/gallery/akeomotion.jpg"
   },
   {
+    "link": "kinect",
+    "title": "Simple obstacle detection with kinect",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/kinect.jpg"
+  }],
+  "kinect_single":{
+    "link": "kinect",
+    "title": "Simple obstacle detection with kinect",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/kinect_fov.png"
+  },
+  "kinect_walk_infront":{
+    "link": "kinect",
+    "title": "Simple obstacle detection with kinect",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/walk_infront.png"
+  },
+  "kinect_prob_seen":{
+    "link": "kinect",
+    "title": "Simple obstacle detection with kinect",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/prob_seen.jpg"
+  },
+  "kinect_malfunctions":{
+    "link": "kinect",
+    "title": "Simple obstacle detection with kinect",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Malfunctions.png"
+  },
+  "kinect_confidence":{
+    "link": "kinect",
+    "title": "Simple obstacle detection with kinect",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Confidence_gauge.jpg"
+  },
+  "kinect_3d_mapping_wall":{
+    "link": "kinect",
+    "title": "Simple obstacle detection with kinect",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/3d_mapping_wall.png"
+  },
+  "bresenham":{
+    "link": "kinect",
+    "title": "Simple obstacle detection with kinect",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Bresenham_principle.png"
+  },
+  "SEA_single":{
+    "link": "SEA",
+    "title": "Series-Elastic Actuator design",
+    "copy": "For global styles.",
+    "image": "../images/gallery/Pulley-System.jpg"
+  },  
+  "SEA_farm":{
+    "link": "SEA",
+    "title": "Series-Elastic Actuator design",
+    "copy": "For global styles.",
+    "image": "../images/gallery/farm.jpg"
+  },
+  "SEA_system":{
+    "link": "SEA",
+    "title": "Series-Elastic Actuator design",
+    "copy": "For global styles.",
+    "image": "../images/gallery/sea_system.jpg"
+  },
+  "sea_principle":{
+    "link": "SEA",
+    "title": "Series-Elastic Actuator design",
+    "copy": "For global styles.",
+    "image": "../images/gallery/sea-principle.jpg"
+  },
+  "smart_pen_single":{
+    "link": "smart_pen",
+    "title": "Smart Pen of the magic science",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/smart_pen.png"
+  },  
+  "smart_pen_schema":{
+    "link": "smart_pen",
+    "title": "schema",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/pen_schema.png"
+  },
+
+  "PHD_controller_single":{
+    "link": "PHD_controller",
+    "title": "Graph PHD",
+    "copy": "Component-based for easy usage.",
+    "image": "../images/gallery/graph_PHD.png"
+  },
+
+  "painting_robot_single":{
+    "link": "painting_robot",
     "title": "Painting robot",
     "copy": "Including a polyfill for Safari.",
     "image": "../images/gallery/demonstration.png"
   },
-  {
-    "title": "Painting robot",
+
+  "poppy_robot_single":{
+    "link": "poppy_robot",
+    "title": "Poppy robot",
     "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/demonstration.png"
+    "image": "../images/gallery/Poppy-robot-pendulum.jpg"
   },
-  {
-    "title": "Painting robot",
+
+  "poppy_twodof":{
+    "link": "poppy_robot",
+    "title": "Poppy robot",
     "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/demonstration.png"
+    "image": "../images/gallery/System.jpg"
   },
-  {
-    "title": "Painting robot",
+  "AGV_single":{
+    "link": "AGV",
+    "title": "AGV",
     "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/demonstration.png"
+    "image": "../images/gallery/akeomotion.jpg"
   },
-  {
-    "title": "Painting robot",
+  "AGV_t1":{
+    "link": "AGV",
+    "title": "AGV",
     "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/demonstration.png"
-  }]
+    "image": "../images/gallery/LT1.png"
+  },
+  "AGV_t2":{
+    "link": "AGV",
+    "title": "AGV",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/LT2.png"
+  },
+  "AGV_t3":{
+    "link": "AGV",
+    "title": "AGV",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/LT3.png"
+  },
+  "AGV_t4":{
+    "link": "AGV",
+    "title": "AGV",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/LT4.png"
+  },
+  "AGV_t5":{
+    "link": "AGV",
+    "title": "AGV",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/LT5.png"
+  },
+  "robocup_single":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/nico_robocup.jpg"
+  }
+
 }

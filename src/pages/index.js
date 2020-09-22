@@ -27,6 +27,7 @@ Index.propTypes = {
 
 export default Index;
 
+
 export const query = graphql`
   query HomepageQuery {
     homeJson {
@@ -38,6 +39,7 @@ export const query = graphql`
         }
       }
       gallery {
+        link
         title
         copy
         image {
