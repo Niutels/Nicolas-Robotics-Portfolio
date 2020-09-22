@@ -12,9 +12,6 @@ The Kinect camera is a distance sensor, it has an angular field of view which me
 a spherical system. You may keep it that way, but to make it easier to visualize you can also convert it to a Cartesian system.
 You will need a Kinect camera and a numeric software such as Matlab or Labview.
     <Simpleimage singleitem={data.homeJson.kinect_single} />
-    <Simpleimage singleitem={data.homeJson.kinect_prob_seen} />
-    <Simpleimage singleitem={data.homeJson.kinect_malfunctions} />
-    <Simpleimage singleitem={data.homeJson.kinect_confidence} />
 
 <h2>Create your map</h2>
 Let’s say that, if the camera spots an object with the (X,Y,Z) coordinates, it prints it on a map at the said location. Then by showing a wall to
@@ -29,20 +26,21 @@ Bresenham algorithm's principle : For two points P1 and P2, we search for the ca
 Here, P1 is the Kinect camera and P2 is a dot on the wall. This method gives us the “free space” (crossed cases) between the camera and the
 wall, so it helps us clear the areas which are empty.
 <Simpleimage singleitem={data.homeJson.bresenham} />
-Can it be trusted yet ?
+>h2>Can it be trusted yet ?</h2>
 We now have a continuous mapping, however its efficiency is questionable. Indeed, the Kinect camera only “believes” in what it is seeing
 right now, which is an issue when you consider its malfunctions and low accuracy. Here is an example of what we are supposed to find by
 implementing this method alone :
-malfunctions
+    <Simpleimage singleitem={data.homeJson.kinect_malfunctions} />
 The spot on the left comes from the Kinect camera which may find
 uncoherent data such as nul distances. To improve our mapping, we are going to use Cauchy distribution.
 First of all, we may consider a Normal distribution which reflects our uncertainty about the precise location of the obstacle. Here is an
 example of an obstacle seen at 12 meters from the camera and its associated normal distribution to consider the [11,5 ; 12,5] range.
+    <Simpleimage singleitem={data.homeJson.kinect_prob_seen} />
 
 Then we may add a cumulative distribution function which will behave as a gauge of confidence : the more an obstacle is seen, the more
 it is trusted. Thus a wall will be hard to remove from the map but a walking person won’t be. Moreover, malfunctions are mostly erased
-confidence-gauge
 and the accuracy is improved.
+    <Simpleimage singleitem={data.homeJson.kinect_confidence} />
 Finally, the outcome is really good, but the map is limited to an area of your room because you can’t move the camera. If you are interested
 in a more advanced 3D mapping you may want to assemble a motor, allowing the camera to rotate at constant rate and pursue the 3D
 mapping.
