@@ -4,7 +4,7 @@
   "author": "Fabian Schultz <desk@fabianschultz.com>",
   "scripts": {
     "develop": "gatsby develop",
-    "serve": "gatsby serve --prefix-paths",
+    "serve": "gatsby serve",
     "ssr": "npm run build && npm run serve",
     "format": "prettier --config ./.prettierrc --write src/**/*.js",
     "build:dir": "mkdirp ./public/icons/",
