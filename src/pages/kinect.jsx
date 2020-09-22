@@ -32,7 +32,7 @@ right now, which is an issue when you consider its malfunctions and low accuracy
 implementing this method alone :
     <Simpleimage singleitem={data.homeJson.kinect_malfunctions} />
 The spot on the left comes from the Kinect camera which may find
-uncoherent data such as nul distances. To improve our mapping, we are going to use Cauchy distribution.
+incoherent data such as nul distances. To improve our mapping, we are going to use Cauchy distribution.
 First of all, we may consider a Normal distribution which reflects our uncertainty about the precise location of the obstacle. Here is an
 example of an obstacle seen at 12 meters from the camera and its associated normal distribution to consider the [11,5 ; 12,5] range.
     <Simpleimage singleitem={data.homeJson.kinect_prob_seen} />

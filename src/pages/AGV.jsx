@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Simpleimage from 'components/simpleimage';
+import Video from "../components/video"
 
 const AGV = ({ data }) => (
   <Layout>
@@ -66,6 +67,10 @@ However if you are not familiar with State Feedbacks, you can also implement a s
 will already work just fine but you will still have to regulate the weighting between the distance factor D and the orientation
 factor α depending on your system performances against it.
 Here is an example of a line tracking establishment I achieved at AKEOPLUS:
+      <Video
+        videoSrcURL="https://www.youtube.com/watch?v=htx5c2Kiee0"
+        videoTitle="Akeomotion demo"
+      />
 </div>
   </Layout>
 );
