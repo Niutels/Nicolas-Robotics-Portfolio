@@ -1,7 +1,7 @@
 const siteConfig = require('./site-config');
 
 module.exports = {
-    pathPrefix: "/Nicolas-Robotics-Portfolio/",
+    pathPrefix: "/Nicolas-Robotics-Portfolio",
   siteMetadata: {
     ...siteConfig,
   },
