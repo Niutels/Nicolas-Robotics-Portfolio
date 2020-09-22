@@ -51,6 +51,10 @@ self.__precacheManifest = [
   },
   {
     "url": "polyfill-befed6d0260fcf0c5e1b.js"
+  },
+  {
+    "url": "manifest.json",
+    "revision": "64a22cff60fae5950da826899450e394"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
