@@ -26,7 +26,7 @@ Bresenham algorithm's principle : For two points P1 and P2, we search for the ca
 Here, P1 is the Kinect camera and P2 is a dot on the wall. This method gives us the “free space” (crossed cases) between the camera and the
 wall, so it helps us clear the areas which are empty.
 <Simpleimage singleitem={data.homeJson.bresenham} />
->h2>Can it be trusted yet ?</h2>
+<h2>Can it be trusted yet ?</h2>
 We now have a continuous mapping, however its efficiency is questionable. Indeed, the Kinect camera only “believes” in what it is seeing
 right now, which is an issue when you consider its malfunctions and low accuracy. Here is an example of what we are supposed to find by
 implementing this method alone :
