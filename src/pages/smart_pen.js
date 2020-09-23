@@ -2,13 +2,15 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Simpleimage from 'components/simpleimage';
+// import Simplepdf from 'components/pdf_link';
 
 const Smart_pen = ({ data }) => (
   <Layout>
+    <div>
     <h1> Smart Pen – Numerize your 3D handwriting </h1>
     <Simpleimage singleitem={data.homeJson.smart_pen_single} />
     <h2> Why is it smart ? </h2>
-    <div> The pen I am going to show you doesn’t just copy what you write, it is able to recognize, to “understand” digits and letters written in the
+     The pen I am going to show you doesn’t just copy what you write, it is able to recognize, to “understand” digits and letters written in the
 air and to write it in a word file.
 You will need a numeric software such as Matlab, an arduino board, an IMU and some pen-shaped material.   
 <h2> Your computer needs to learn </h2>
@@ -38,12 +40,30 @@ I set up a threshold system in order to avoid reading noises.
 Now, to recognize what you are going to write we will use a Dynamic Time Warping algorithm which is simply going to compare the
 signal resulting from your writing with the one you associated with a symbol previously. If those two are similar enough, it will finally be
 written in a word file.
+{/*   You can find a more extensive report attached : <Simplepdf node={data.allFile.edges.node} />
+<p>{data.allFile.edges.node[0].name}</p>*/}
+{/*You can find a more extensive report attached : <Simplepdf node={data.allFile.edges} />*/}
+A more extensive report and useful figures can be found in the link below:
+{data.allFile.edges.map((file, index) => 
+  { 
+    return ( <p key={`pdf-${index}`}><a href={file.node.publicURL} download>Smart pen report</a></p>)
+  }
+)}
 </div>
   </Layout>
 );
 export default Smart_pen;
 export const newquery = graphql`
   query SmartPenQuery {
+    allFile(filter: { base: { eq: "PJE.pdf" } }) 
+    { 
+      edges 
+      { node 
+        { publicURL
+          name 
+        } 
+      } 
+    }
     homeJson 
     {
       smart_pen_single 

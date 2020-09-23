@@ -8,6 +8,10 @@ import Video from "../components/video"
 const painting_robot = ({ data }) => (
   <Layout>
   <div>
+  <Video
+        videoSrcURL="https://www.youtube.com/embed/u6k4HucUqpA"
+        videoTitle="demonstration"
+      />
     <h1> Summary of the design and implementation </h1>
     <h2>Motivation for the work of Summer 2020</h2>
 We want to provide a solution for mimicking human operators
@@ -208,12 +212,7 @@ configuration, but ... better safe than sorry. It worked well.
       <Simpleimage singleitem={data.homeJson.painting_robot_24} />
 	</li>
 </ul>
-<h2>Real experiment</h2>
-Controlling in joint space, we can achieve a simple demonstration:
-<Video
-        videoSrcURL="https://www.youtube.com/embed/u6k4HucUqpA"
-        videoTitle="demonstration"
-      />
+
 </div>
   </Layout>
 );

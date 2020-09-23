@@ -1,17 +1,13 @@
 {
   "title": "Home",
   "content": "intro.md",
-  "gallery": [{
-    "link": "robocup",
-    "title": "Robocup",
-    "copy": "For global styles.",
-    "image": "../images/gallery/nico_robocup.jpg"
-  },
+  "gallery": [
+    
   {
-    "link": "SEA",
-    "title": "Series-Elastic Actuator design",
-    "copy": "For global styles.",
-    "image": "../images/gallery/Pulley-System.jpg"
+    "link": "painting_robot",
+    "title": "Painting robot",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/demonstration.png"
   },
   {
     "link": "PHD_controller",
@@ -19,11 +15,17 @@
     "copy": "Component-based for easy usage.",
     "image": "../images/gallery/graph_PHD.png"
   },
+    {
+    "link": "exoskeleton",
+    "title": "IronMan",
+    "copy": "For global styles.",
+    "image": "../images/gallery/exo.png"
+  },
   {
-    "link": "painting_robot",
-    "title": "Painting robot",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/demonstration.png"
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/nico_robocup.jpg"
   },
   {
     "link": "smart_pen",
@@ -48,6 +50,12 @@
     "title": "Simple obstacle detection with kinect",
     "copy": "Including a polyfill for Safari.",
     "image": "../images/gallery/kinect.jpg"
+  },
+  {
+    "link": "SEA",
+    "title": "Series-Elastic Actuator design",
+    "copy": "For global styles.",
+    "image": "../images/gallery/Pulley-System.jpg"
   }],
   "kinect_single":{
     "link": "kinect",
