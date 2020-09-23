@@ -1,38 +1,41 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
+import Simpleimage from 'components/simpleimage';
+
 
 const About = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.aboutJson.title} />
-    <Box>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: data.aboutJson.content.childMarkdownRemark.html,
-        }}
-      />
-    </Box>
+    <div> <h1>{data.aboutJson.title}</h1>
+    <Simpleimage singleitem={data.aboutJson.mypicture} />
+    Hey I'm Nico, I love robots and I'd love to talk, let's grab a coffee! 
+     </div>
   </Layout>
 );
 
-About.propTypes = {
-  data: PropTypes.object.isRequired,
-};
-
 export default About;
 
-export const query = graphql`
-  query AboutQuery {
-    aboutJson {
-      title
-      content {
-        childMarkdownRemark {
-          html
+export const aboutquery = graphql`
+query AboutQuery 
+{
+  aboutJson       
+  {
+    title
+    mypicture 
+    {
+      image 
+      {
+        childImageSharp 
+        {
+          fluid(maxWidth: 2000, quality: 90) 
+          {
+            ...GatsbyImageSharpFluid_withWebp
+          }
         }
       }
     }
   }
+}
 `;

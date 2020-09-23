@@ -20,13 +20,19 @@ The first time I worked on an exoskeleton – a robotics suits designed to enhan
     In a full-body exoskeleton, the human operator is fully “contained” inside the robot. While this is also a “handy” safety feature for the operator (e.g. his feet and hands should not touch the ground or walls, the point is for the robot to carry the loads for the human, not the other way around!), the mechanical design of a resilient robotics suit able to contain a human without constraining his motion is obviously a really tricky feat to accomplish.
 </li>
 <li>
-    Now it would be great if the suit could do more than acting as a dead weight right? What we really want is for the suit to actively follow the human over his motion. As for most robotics systems, we will need three components: a configuration of sensors to help us guess what the human operator is trying to do, a set of actuators to put the exoskeleton in motion accordingly and a power source to allow for all of this to happen. This is particularly difficult as humans have numerous and complex mobility features while each actuator can really provide motion in only one direction. It takes compromises between the bulkiness of the suit and the amount of power we need to provide to each joint.
+    Now it would be great if the suit could do more than acting as a dead weight right? What we really want is for the suit to actively follow the human over his motion. As for most robotics systems, we will need three components: 
+    <ul>
+    	<li>a configuration of sensors to help us guess what the human operator is trying to do</li>
+    	<li>a set of actuators to put the exoskeleton in motion accordingly </li>
+    	<li>a power source to allow for all of this to happen. </li>
+    </ul>
+    This is particularly difficult as humans have numerous and complex mobility features while each actuator can really provide motion in only one direction. It takes compromises between the bulkiness of the suit and the amount of power we need to provide to each joint.
 </li>
 <li>
     Finally, the trickiest of them all might very well be the design of a controller’s framework. It can be defined as the structure optimizing for what we want, following the human’s motion, based on what we know, mostly the sensors data, using what we can control, the actuators. This type of study is found in the field of control theory and we will go in slightly more details in the following paragraphs. Notice that I didn’t elaborate much on the sensors in the previous paragraph, this is because as of today there is no best compromise regarding the sensors configuration, what type of sensors to use and how to use them best, it really is about which control strategy the engineers will choose to go for and how much money they can spend on monitoring the human. 
 </li>
 </ul>
-In all existing designs of full-body exoskeletons, solutions to the challenges described above are heavily influenced by the corresponding team of engineers’ expertise/background as exoskeletons are yet so uncommon that a research-oriented design approach is considered the only way forward.
+In all existing designs of full-body exoskeletons, solutions to the challenges described above are heavily influenced by the corresponding team of engineers’ expertise/background as exoskeletons are yet so uncommon that a research-oriented design approach is still meaningful.
 <h2>3 key control strategies</h2>
 
 Control theory is what brings robots to life, its extent is very wide but in essence it allows us to move our robots safely and accurately. We thus design control strategies based on our understanding of it, and below is a list of key elements used nowadays in exoskeleton robotsic.
@@ -44,7 +50,7 @@ Control theory is what brings robots to life, its extent is very wide but in ess
 
 <h2>But does it work?</h2>
 
-Short answer: yes, if you don’t move too fast on a horizontal surface.
+Short answer: yes, if you don’t move too fast on a horizontal surface, the SAGIT exoskeleton is a functionnal proof of concept designed by Apptronik's talented engineers whom I feel lucky to have been working with.
 
 </div>
   </Layout>

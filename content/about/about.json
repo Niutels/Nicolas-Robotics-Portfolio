@@ -1,4 +1,7 @@
 {
-  "title": "About",
-  "content": "content.md"
+  "title": "About me",
+  "content": "content.md",
+  "mypicture":{
+			    "image": "../images/gallery/mypicture.jpg"
+		    }
 }
