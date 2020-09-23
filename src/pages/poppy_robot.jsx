@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Simpleimage from 'components/simpleimage';
+import Video from "../components/video";
 
 const poppy_robot = ({ data }) => (
   <Layout>
@@ -44,7 +45,10 @@ We used it to implement the LQ control law we designed on Matlab. Then we had ac
 to test our automatic control in real time on Poppy. To avoid any injury during the tests, Poppy’s feet were fixed and his chest had a safety
 cord.
 You can find the results of my winning team here :    
-
+<Video
+        videoSrcURL="https://www.youtube.com/embed/FKjoO8wzzus"
+        videoTitle="demonstration"
+      />
 </div>
   </Layout>
 );

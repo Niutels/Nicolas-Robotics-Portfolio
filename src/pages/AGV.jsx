@@ -68,7 +68,7 @@ will already work just fine but you will still have to regulate the weighting be
 factor α depending on your system performances against it.
 Here is an example of a line tracking establishment I achieved at AKEOPLUS:
       <Video
-        videoSrcURL="https://www.youtube.com/watch?v=htx5c2Kiee0"
+        videoSrcURL="https://www.youtube.com/embed/htx5c2Kiee0"
         videoTitle="Akeomotion demo"
       />
 </div>

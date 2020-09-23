@@ -135,13 +135,6 @@
     "image": "../images/gallery/graph_PHD.png"
   },
 
-  "painting_robot_single":{
-    "link": "painting_robot",
-    "title": "Painting robot",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/demonstration.png"
-  },
-
   "poppy_robot_single":{
     "link": "poppy_robot",
     "title": "Poppy robot",
@@ -196,6 +189,155 @@
     "title": "Robocup",
     "copy": "For global styles.",
     "image": "../images/gallery/nico_robocup.jpg"
+  },
+  "painting_robot_single":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/demonstration.png"
+  },
+    "painting_robot_1":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_1.jpg"
+  },
+  "painting_robot_2":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_2.jpg"
+  },
+  "painting_robot_3":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_3.jpg"
+  },
+  "painting_robot_4":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_4.jpg"
+  },
+  "painting_robot_5":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_5.jpg"
+  },
+  "painting_robot_6":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_6.jpg"
+  },
+  "painting_robot_7":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_7.jpg"
+  },
+  "painting_robot_8":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_8.jpg"
+  },
+  "painting_robot_9":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_9.jpg"
+  },
+  "painting_robot_10":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_10.jpg"
+  },
+  "painting_robot_11":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_11.jpg"
+  },
+  "painting_robot_12":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_12.jpg"
+  },
+  "painting_robot_13":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_13.jpg"
+  },
+  "painting_robot_14":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_14.jpg"
+  },
+  "painting_robot_15":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_15.jpg"
+  },
+  "painting_robot_16":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_16.jpg"
+  },
+  "painting_robot_17":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_17.jpg"
+  },
+  "painting_robot_18":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_18.jpg"
+  },
+  "painting_robot_19":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_19.jpg"
+  },
+  "painting_robot_20":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_20.jpg"
+  },
+  "painting_robot_21":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_21.jpg"
+  },
+  "painting_robot_22":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_22.jpg"
+  },
+  "painting_robot_23":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_23.jpg"
+  },
+  "painting_robot_24":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/paint_24.jpg"
   }
-
 }
