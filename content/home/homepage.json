@@ -13,7 +13,7 @@
     "link": "PHD_controller",
     "title": "Human-like robots",
     "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/graph_PHD.png"
+    "image": "../images/gallery/robot_to_human.png"
   },
     {
     "link": "exoskeleton",
@@ -140,7 +140,7 @@
     "link": "PHD_controller",
     "title": "Graph PHD",
     "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/graph_PHD.png"
+    "image": "../images/gallery/robot_to_human.png"
   },
 
   "poppy_robot_single":{
@@ -198,6 +198,19 @@
     "copy": "For global styles.",
     "image": "../images/gallery/nico_robocup.jpg"
   },
+  "robocup_team":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/team_picture.jpg"
+  },
+  "robocup_prize":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/third_place.jpg"
+  },
+
   "painting_robot_single":{
     "link": "robocup",
     "title": "Robocup",
