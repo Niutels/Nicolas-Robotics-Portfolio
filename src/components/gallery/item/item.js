@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
-import { Title, Copy } from './item.css';
+import { Title } from './item.css';
 
 const Item = ({ title, copy, image }) => (
   <figure>

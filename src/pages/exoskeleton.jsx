@@ -1,7 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
 import Layout from 'components/layout';
-import Simpleimage from 'components/simpleimage';
 // import Simplepdf from 'components/pdf_link';
 import Video from "../components/video";
 const Exoskeleton = () => (

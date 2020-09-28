@@ -15,6 +15,12 @@
     "copy": "Component-based for easy usage.",
     "image": "../images/gallery/robot_to_human.png"
   },
+  {
+    "link": "machine_learning",
+    "title": "Machine Learning",
+    "copy": "Component-based for easy usage.",
+    "image": "../images/gallery/ai.png"
+  },
     {
     "link": "exoskeleton",
     "title": "IronMan",

@@ -1,8 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
-import Box from 'components/box';
-import Head from 'components/head';
 import Simpleimage from 'components/simpleimage';
 
 const About = ({ data }) => (
