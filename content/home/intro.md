@@ -1,1 +1,1 @@
-Awesome robotics projects!
+Welcome! Below are some awesome robotics projects, have fun reading and please don't hesitate to contact me!

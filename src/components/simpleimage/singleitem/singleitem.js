@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 const Singleitem = ({ title, copy, image }) => (
   <figure>
 {
-	}    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+	}    <Img imgStyle={{objectFit: 'cover'}} fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
   </figure>
 );
 

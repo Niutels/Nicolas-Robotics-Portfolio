@@ -1,14 +1,18 @@
 import React from 'react';
+import { graphql } from 'gatsby';
+
 import Layout from 'components/layout';
 // import Simplepdf from 'components/pdf_link';
 import Video from "../components/video";
-const Exoskeleton = () => (
+import Simpleimage from 'components/simpleimage';
+
+const Exoskeleton = ({ data }) => (
   <Layout>
+    <div style={{ margin: `3rem auto`, maxWidth: 600, padding: `0 1rem` }}> 
+
+    <Simpleimage singleitem={data.homeJson.nico_exo} />
+    </div>
     <div>
-<Video
-        videoSrcURL="https://www.youtube.com/embed/qvLzugCIdJs"
-        videoTitle="SAGIT"
-/>
     <h1> How real is IronMan? </h1>
     
 The first time I worked on an exoskeleton – a robotics suits designed to enhance human capabilities by alleviating their loads or making them stronger – I immediately pictured the Iron Man coming to life. Reality is we’re not there yet, but we’re also clearly not as far as you may think!
@@ -50,9 +54,40 @@ Control theory is what brings robots to life, its extent is very wide but in ess
 
 Short answer: yes, if you don’t move too fast on a horizontal surface, the SAGIT exoskeleton is a functionnal proof of concept designed by Apptronik's talented engineers whom I feel lucky to have been working with.
 
+
+<Video
+        videoSrcURL="https://www.youtube.com/embed/qvLzugCIdJs"
+        videoTitle="SAGIT"
+/>
+
 </div>
+
   </Layout>
 );
+
+
+export const newquery = graphql`
+  query exoQuery {
+    homeJson 
+    {
+      nico_exo 
+      {
+        link
+        title
+        copy
+        image 
+        {
+          childImageSharp 
+          {
+            fluid(maxWidth: 2000, quality: 90) 
+            {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+  }
+}`;
 export default Exoskeleton;
 
 

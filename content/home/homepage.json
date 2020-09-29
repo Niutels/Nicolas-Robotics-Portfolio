@@ -1,8 +1,25 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "nico_exo":{
+    "link": "nico_exo",
+    "title": "Nico",
+    "copy": "For global styles.",
+    "image": "../images/gallery/og_nico_exo.jpg"
+  },
   "gallery": [
-    
+    {
+    "link": "exoskeleton",
+    "title": "IronMan",
+    "copy": "For global styles.",
+    "image": "../images/gallery/exo.png"
+  },
+  {
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/hsr.jpg"
+  },
   {
     "link": "painting_robot",
     "title": "Painting robot",
@@ -21,18 +38,7 @@
     "copy": "Component-based for easy usage.",
     "image": "../images/gallery/ai.png"
   },
-    {
-    "link": "exoskeleton",
-    "title": "IronMan",
-    "copy": "For global styles.",
-    "image": "../images/gallery/exo.png"
-  },
-  {
-    "link": "robocup",
-    "title": "Robocup",
-    "copy": "For global styles.",
-    "image": "../images/gallery/nico_robocup.jpg"
-  },
+    
   {
     "link": "smart_pen",
     "title": "Smart Pen",
@@ -366,5 +372,11 @@
     "title": "Robocup",
     "copy": "For global styles.",
     "image": "../images/gallery/paint_24.jpg"
+  },
+  "hsr_robot":{
+    "link": "robocup",
+    "title": "Robocup",
+    "copy": "For global styles.",
+    "image": "../images/gallery/hsr.jpg"
   }
 }

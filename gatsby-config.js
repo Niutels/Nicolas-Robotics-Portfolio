@@ -27,7 +27,7 @@ module.exports = {
       options: {
         trackingId: process.env.GA_TRACKING_ID
       }
-    },
+    },  
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-webpack-size`,
