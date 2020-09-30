@@ -5,17 +5,17 @@ import { Title } from './item.css';
 
 const Item = ({ title, copy, image }) => (
   <figure>
-    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
-    <figcaption>
-      <Title>{title}</Title>
-{/*      <Copy>{copy}</Copy>
-*/}    </figcaption>
+    <Img imgStyle={{objectFit: 'contain',height:'180px'}} fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+    {/*<figcaption>
+  		<Title>{title}</Title>
+    </figcaption>
+      */}
   </figure>
+
 );
 
 Item.propTypes = {
   title: PropTypes.string,
-  copy: PropTypes.string,
   image: PropTypes.object.isRequired,
 };
 

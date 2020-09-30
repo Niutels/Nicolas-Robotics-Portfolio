@@ -9,8 +9,8 @@
 
 
 .myDiv {
-  text-align: justify; 
-  text-align-last: justify;}
+  text-align: justify;
+  width: 500px;}
 
 .centered{
   text-align: center;

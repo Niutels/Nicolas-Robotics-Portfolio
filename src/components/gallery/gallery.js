@@ -5,8 +5,7 @@ import { Container } from './gallery.css';
 
 const Gallery = ({ items }) => (
 <Container>
-    
-        {items.map( (item, i) => (<a href={item.link} key={i}> <Item {...item} key={i}/>  </a> )   ) }
+        {items.map( (item, i) => (<a href={item.link} key={i}> <Item {...item} key={i}/>  </a>)   ) }
 </Container>
 );
 

@@ -8,7 +8,6 @@ const About = ({ data }) => (
   <Layout>
     <div style={{ margin: `3rem auto`, maxWidth: 600, padding: `0 1rem` }}> 
     <Simpleimage singleitem={data.aboutJson.mypicture} />
-     </div>
 
     {/*<h1>{data.aboutJson.title}</h1>*/} 
     <div class={styles.myDiv}>
@@ -22,6 +21,7 @@ const About = ({ data }) => (
     return ( <h3 key={`pdf-${index}`}><a href={file.node.publicURL} download>Resume</a></h3>)
   }
 )}
+     </div>
   </Layout>
 );
 

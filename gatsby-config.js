@@ -37,7 +37,12 @@ module.exports = {
         rule: {
           include: /images\/.*\.svg$/,
         },
-      },
+    }},
+    {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: "src/utils/typography.jsx"
+              }  
     },
   ],
 };
