@@ -7,6 +7,12 @@
     "copy": "For global styles.",
     "image": "../images/gallery/og_nico_exo.jpg"
   },
+  "contact":{
+    "link": "nico_exo",
+    "title": "Nico",
+    "copy": "For global styles.",
+    "image": "../images/gallery/background.png"
+  },
   "gallery": [
     {
     "link": "exoskeleton",
