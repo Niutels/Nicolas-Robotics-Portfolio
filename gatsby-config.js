@@ -22,7 +22,6 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
-    },  
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-webpack-size`,
