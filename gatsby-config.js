@@ -21,12 +21,7 @@ module.exports = {
         name: `content`,
         path: `${__dirname}/content`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GA_TRACKING_ID
-      }
+    }
     },  
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
