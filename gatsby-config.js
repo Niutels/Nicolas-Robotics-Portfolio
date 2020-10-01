@@ -21,7 +21,7 @@ module.exports = {
         name: `content`,
         path: `${__dirname}/content`,
       },
-    }
+    },
     },  
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
